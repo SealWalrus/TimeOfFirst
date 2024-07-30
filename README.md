@@ -1,22 +1,18 @@
 # TimeOfFirst
 ____
-# Документация
+## Документация
 Документация ALD PRO https://disk.yandex.ru/i/BeBFKJMopWlR9g Дистрибутивы прошлых лет https://disk.yandex.ru/d/bcJ-WKIW6wpOgw https://kb.infowatch.com/
 ____
-====================
-Учетки 
-====================
+## Учетки 
 WinDC  Administrator xxXX1234
 alddpro.lab  admin Aa12345678
 Astra astra astra
-
-№Задание 1
+____
+## Задание 1
 - создавать пользователей через подразделения (как в астре так и в AD)
 - создание доверительных отношений (https://www.tune-it.ru/web/raist/blog/-/blogs/19054210)
-
-====================
-Настройка АРМ Астра
-====================
+____
+## Настройка АРМ Астра
 1. Задать репозитории (deb http://dl.astralinux.ru/astra/frozen/1.7_x86-64/*версия ОС*/repository-base 1.7_x86-64 main non-free contrib)
                       (deb http://dl.astralinux.ru/astra/frozen/1.7_x86-64/*версия ОС*/repository-extended 1.7_x86-64 main contrib non-free)
 
