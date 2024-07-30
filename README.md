@@ -1,7 +1,6 @@
 # TimeOfFirst
 ====================
 Документация
-====================
 Документация ALD PRO https://disk.yandex.ru/i/BeBFKJMopWlR9g
 Дистрибутивы прошлых лет https://disk.yandex.ru/d/bcJ-WKIW6wpOgw
 https://kb.infowatch.com/
