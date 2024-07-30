@@ -57,7 +57,7 @@ ____
 Установка из репозитория Microsoft  
 Обновить пакет libxkbfile1 до версии не ниже 1:1.1.0 из репозиториев Debian:  
 Загрузить пакет:  
-`wget http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbfile/libxkbfile1_1.1.0-1_amd64.deb`
+`wget http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbfile/libxkbfile1_1.1.0-1_amd64.deb`  
 Установить пакет:  
 `sudo apt install ./libxkbfile1_1.1.0-1_amd64.deb`
 
@@ -68,12 +68,8 @@ ____
 `wget -O - https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null`
 
 Загрузить параметры репозитория Microsoft (параметры сохраняются в файле /etc/apt/sources.list.d/microsoft-prod.list):  
-На момент обновления статьи в указанных ниже репозиториях предоставлялись одинаковые версии пакетов.  
 Для Astra Linux Special Edition РУСБ.10015-01 (очередное обновление 1.7):  
 `sudo wget https://packages.microsoft.com/config/debian/10/prod.list -O /etc/apt/sources.list.d/microsoft-prod.list`
-Для Astra Linux Special Edition РУСБ.10015-01 (очередное обновление 1.6), Astra Linux Special Edition РУСБ.10015-16 исп. 1, Astra Linux Common Edition:  
-`sudo wget https://packages.microsoft.com/config/debian/9/prod.list -O /etc/apt/sources.list.d/microsoft-prod.list`
-Не забывайте удалять ненужные сторонние репозитории после того, как установка из них завершена.  
 
 Обновить кеш пакетов:  
 `sudo apt update`
