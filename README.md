@@ -87,3 +87,9 @@ ____
 ## POSTGRESQL
 sudo -u postgres psql
 ALTER USER имяпользователя WITH PASSWORD 'новыйпароль';
+
+____
+## ViPNet 
+1. Установить MSSQL. Дистрибутив лежит в папке.
+2. Запустить службы TCP/IP, NamedPipes, SQL Server Browser (Automatic).
+3. 
